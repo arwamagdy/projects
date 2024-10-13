@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@;300400;500;600;700& display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;;
+}
+
+*{
+    font-family: 'poppins',sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: #fff;
+    width: 100% ;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    
+}
+
+.logo{
+    color:#000;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 2,8em;
+}
+
+.navigation a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 30px;
+} 
+.navigation a:hover{
+    color: bisque ;
+}
+
+
+.compus{
+    padding: 100px 200px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card{
+    background-color: #fff;
+    border-radius: 1px solid #000;
+    min-height: 7em;
+    width: 40em;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px;
+    transform: 0.7 ease;
+
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-imge{
+    opacity: 0.9;
+}
+
+.project-imge img{
+    width: 100%;
+    height: 12em;
+}
+
+.project-info{
+    padding: 1px;
+    margin-left: 30px;
+}
+
+/*/*     */
+.price{
+    font-size: 1rem;
+    color: darkred;
+    padding-top: 1rem;
+
+}
+.price span{
+    font-size: .5rem;
+    color: red;
+    text-decoration: line-through;
+}
+.btn{
+    background-color: rgb(235, 235, 231);
+    color: rgb(19, 17, 17);
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 300px;
+    text-decoration: none;
+    transform: 0.7s ease;
+    display: block;
+    
+    
+    height: 1em;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+
+}
+
+.min {
+
+    padding: 200px 200px;
+
+}
+
+
+.min .contentl{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.min .projects-cards{
+    background-color: #fff;
+    border-radius: 1px solid #000;
+    min-height: 7em;
+    width: 10em;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px;
+    transform: 0.7 ease;
+
+}
+
+.min .projects-cards:hover{
+    transform: scale(1.1);
+}
+.min .projects-cards:hover .projects-imges{
+    opacity: 0.9;
+}
+
+.min .projects-imges img{
+    width: 100%;
+    height: 12em;
+}
